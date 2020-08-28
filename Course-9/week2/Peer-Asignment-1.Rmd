@@ -1,0 +1,39 @@
+---
+title: "August 29th, 2020"
+author: "Kshitij Mishra"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE)
+```
+
+
+```{r leaflet}
+library(leaflet)
+
+
+CR_Beaches<-data.frame(lat=c(9.09359, 9.150838, 9.381198, 9.977844, 9.6116902, 10.299275, 9.658377, 10.542484, 10.55096, 9.879445),
+                       lng=c(-83.67776, -83.740167, -84.145245, -84.829421, -84.629272, -85.837106, -82.773177, -83.502355, -85.699818, -85.518415),
+                       popup=c('Ventanas Beach', "Uvita Beach", "Manuel Antonio Beach", "Puntarenas", "Jacó Beach", "Tamarindo beach", "Puerto Viejo", "Tortuguero", "Del Coco Beach", "Samara Beach"))
+
+beach_icon<-makeIcon(iconUrl = "https://github.com/pvillamichel/R-Markdown-and-Leaflet/blob/master/beach_pin.png?raw=true", iconWidth = 60, iconHeight = 60, iconAnchorX = 30, iconAnchorY = 60)
+
+CR_Airports<-data.frame(lat=c(9.998054, 10.594366),
+                       lng=c(-84.20409, -85.544151),
+                       popup=c('Juan Santamaría Intl. Aiport', 'Daniel Oduber Intl. Airport'))
+
+airport_icon<-makeIcon(iconUrl = "https://github.com/pvillamichel/R-Markdown-and-Leaflet/blob/master/airport_pin.png?raw=true", iconWidth = 60, iconHeight = 60, iconAnchorX = 30, iconAnchorY = 60)
+
+Map<-CR_Beaches %>%
+        leaflet() %>%
+        addTiles() %>%
+        addMarkers(icon=beach_icon, popup=CR_Beaches$popup)
+
+Map<- Map %>% addMarkers(Map, lng=CR_Airports$lng, lat=CR_Airports$lat, popup = CR_Airports$popup, icon=airport_icon)
+
+
+Map
+
+```
+
