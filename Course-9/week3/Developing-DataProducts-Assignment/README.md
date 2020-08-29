@@ -16,4 +16,4 @@ At the short time availability in the moment, I will design a presentation using
 - graphic plotting
 - end page with suitable contents, e.g. summary words, acknowledgements, references.
 
-[LINK TO HOSTED PAGE OF THIS ASSIGNMENT](https://www.google.com "R Markdown Presentation & Plotly")
+[LINK TO HOSTED PAGE OF THIS ASSIGNMENT](https://hunter733.github.io/datasciencecoursera-JHU/Course-9/week3/Developing-DataProducts-Assignment/index.html "R Markdown Presentation & Plotly")
