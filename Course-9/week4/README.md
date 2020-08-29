@@ -2,14 +2,17 @@
 
 
 
-## Click the Below Link for the Application.
+## Click The Below Link for The Application.
 
 https://bkarmay.shinyapps.io/PricePredictorForDiamonds/
 
-## Click the Below Link for the Rpubs presentation.
+## Click The Below Link for The Rpubs presentation.
 https://hunter733.github.io/datascience-Course9-week4/Shiny_App_and_repro_pitch.html
 
+## Click The Below Link For The Compiled files.
+https://github.com/hunter733/datascience-Course9-week4
 
+##### NOTE- (I HAD SOME ISSUES HOSTING PRESENTATIONS THEREFORE I HAVE CREATED NEW REPOSITORY FOR WEEK4 ASSIGNMENT, LINK TO THIS REPO IS MENTIONED ABOVE )
 
 
 ##Instructions
