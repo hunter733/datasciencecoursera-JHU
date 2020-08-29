@@ -15,3 +15,5 @@ At the short time availability in the moment, I will design a presentation using
 - a cover page with title, author name, and date
 - graphic plotting
 - end page with suitable contents, e.g. summary words, acknowledgements, references.
+
+[Link to the assignment page created by me](https://hunter733.github.io/datasciencecoursera-JHU/Course-9/week3/Developing-DataProducts-Assignment/index.html " Developing-DataProducts-Assignment ")
